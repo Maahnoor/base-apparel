@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+<main>
+  <article id="left">
+    <img src="images/logo.svg" alt="/" id="logo">
+  <h1 id="pinkheading">We're </h1>
+  <h1 id="blackheading">coming soon</h1>
+
+  <p id="para">Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.</p>
+ 
+    <form id="email" name="emailform" action="#">
+    <input id="enter-email" type="email" name="mailid" placeholder="Email Address">
+    <img id="erroricon" src="images/icon-error.svg" alt="/">
+    <a id="anid" href="#" onclick="ValidateEmail(document.emailform.mailid, this)"></a>
+    </form>
+    <p id="errormsg">Please provide a valid email</p>
+  </article>
+  <article id="right">
+    
+  </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
